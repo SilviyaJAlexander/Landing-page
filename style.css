@@ -1,0 +1,77 @@
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body Styling */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+  /* Header Styling */
+header {
+    background-color: #29213f; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px 0; /* Adds padding around the header */
+    text-align: center; /* Centers the header text */
+  }
+
+  /* Main Content Styling */
+main {
+    max-width: 800px; /* Limits width of content */
+    margin: 20px auto; /* Centers content horizontally */
+    padding: 20px; /* Adds padding inside the main content */
+    background-color: white; /* Sets white background for main content */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }
+  
+  /* Button Styling */
+button {
+    background-color: #29213f; /* Dark background color for buttons */
+    color: white; /* White text color for buttons */
+    border: none; /* Removes default border */
+    padding: 10px 20px; /* Adds padding inside buttons */
+    border-radius: 5px; /* Rounds the button corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 1rem; /* Sets button font size */
+  }
+  
+  button:hover {
+    background-color: hotpink; /* Changes background color on hover */
+  }
+  
+  /* Link Styling */
+a {
+    color: #29213f; /* Dark text color for links */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  
+  /* Footer Styling */
+footer {
+    background-color: #29213f; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Centers the footer text */
+    padding: 10px 0; /* Adds padding around the footer */
+    position: fixed; /* Makes the footer stick to the bottom */
+    width: 100%; /* Ensures the footer spans the entire width */
+    bottom: 0; /* Sticks the footer to the bottom of the page */
+  }
+  
+  /* Image Styling */
+img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains image aspect ratio */
+    border-radius: 8px; /* Rounds the corners of images */
+  }
+  
